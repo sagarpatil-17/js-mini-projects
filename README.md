@@ -25,7 +25,7 @@ A handy health utility application that takes a user's height and weight, calcul
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run these projects locally on your machine, follow these simple steps:
 
