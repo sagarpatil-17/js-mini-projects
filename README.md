@@ -1,4 +1,4 @@
-# 🚀 JS Mini Projects
+# JS Mini Projects
 
 Welcome to the **JS Mini Projects** repository! This is a collection of beginner-friendly, practical web applications built using pure **Vanilla JavaScript** and **HTML5**. 
 
@@ -6,7 +6,7 @@ This repository is designed to demonstrate foundational frontend skills, focusin
 
 ---
 
-## 🎨 Featured Projects
+## Featured Projects
 
 ### 1. Color Switcher
 A simple yet interactive tool that allows users to dynamically change the background color of the page with a single click.
@@ -18,7 +18,7 @@ A handy health utility application that takes a user's height and weight, calcul
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **HTML5:** Semantic structure
 * **JavaScript (ES6+):** Clean, framework-free client-side logic
@@ -45,7 +45,7 @@ To run these projects locally on your machine, follow these simple steps:
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```text
 ├─ bmi_calculator
