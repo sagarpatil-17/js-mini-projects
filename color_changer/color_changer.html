@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+        <h1 style="text-align: center; font-family: cursive, sans-serif;">Color switcher</h1>
+        <div style="display: flex; justify-content: center; gap: 12px;">
+            <div class="box" onclick="switchColor('grey')" style="background: grey;"></div>
+            <div class="box" onclick="switchColor('white')" style="background: white;"></div>
+            <div class="box" onclick="switchColor('blue')" style="background: blue;"></div>
+            <div class="box" onclick="switchColor('yellow')" style="background: yellow;"></div>
+        </div>
+        <p style="text-align: center; font-family:cursive;">Try clicking one of the colors above to
+            change the background color of this page!</p>
+    </div>
+
+    <script>
+        function switchColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+
+</html>
